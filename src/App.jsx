@@ -27,7 +27,7 @@ export default function PasskeyTester() {
   const [logs, setLogs] = useState([]);
   const [finalData, setFinalData] = useState(null);
 
-  const API_BASE = 'http://104.43.91.57:8000/api/v1/webauthn';
+  const API_BASE = 'http://172.188.97.210:8000/api/v1/webauthn';
 
   const addLog = (msg) => {
     setLogs((prev) => [...prev, `[${new Date().toLocaleTimeString()}] ${msg}`]);
